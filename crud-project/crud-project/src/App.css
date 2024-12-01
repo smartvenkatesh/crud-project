@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form input:first-child {
+    margin-top: 20px;
+}
+
+.form input {
+    border: 1px solid #cccccc;
+    padding: 12px 10px;
+    outline: none;
+    margin-bottom: 12px;
+    width: 200px;
+}
+
+.form button {
+    background-color: green;
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.container button {
+    background-color: green;
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+
+.form h1 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.form {
+    border: 1px solid rgba(0, 0, 0, 0.623);
+    padding: 20px;
+    margin-top: 15px;
+
+}
+
+.tableData {
+    margin-top: 30px;
+    /* display: none; */
+}
+
+table,
+tr,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+table button {
+    border: none;
+    outline: none;
+    background: rgb(255, 191, 0);
+    padding: 6px 10px;
+    margin: 0 5px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+table button:last-child {
+    background-color: red;
+    color: #fff;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.buttonContainer button:last-child {
+    background-color: red;
+    color: #fff;
+}
+.container label{
+    font-size: 30px;
+    
+}
